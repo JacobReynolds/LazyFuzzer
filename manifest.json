@@ -1,0 +1,11 @@
+{
+  "name": "Lazy Fuzzer",
+  "description": "Help with fuzzing various input fields",
+  "version": "1.0",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}

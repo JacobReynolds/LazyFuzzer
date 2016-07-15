@@ -4,7 +4,7 @@ function onClickHandler(info, tab) {
     var id = info.menuItemId.replace(/'/g, "\\'").replace(/"/g, '\\"');
     //Insert the value into the currently selected text field
     chrome.tabs.executeScript({
-        code: 'document.activeElement.value =\'' + id + '\''
+        code: 'document.activeElement.value +=\'' + id + '\''
     })
 };
 

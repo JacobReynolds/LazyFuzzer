@@ -11,5 +11,5 @@ function executeCode(input) {
 
 //Replace all hyperlinks with their actual link
 function replaceLinks() {
-    executeCode('document.body.innerHTML = document.body.innerHTML.replace(/(<a href=")([^\\\'\\"]+)(\".*?>)([\\D\\d]*?)(<\\/a>)/g, \'$1$2$3$2$5\')')
+    executeCode('document.body.innerHTML = document.body.innerHTML.replace(/(<a.*?href=")([^\\\'\\"]+)(\".*?>)([\\D\\d]*?)(<\\/a>)/g, \'$1$2$3$2$5\')')
 }

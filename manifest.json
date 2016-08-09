@@ -8,7 +8,7 @@
         "scripts": ["background.js"]
     },
     "icons": {
-        "48": "ic_launcher.png"
+        "48": "marketing/ic_launcher.png"
     },
     "browser_action": {
         "default_title": "Lazy Fuzzer",

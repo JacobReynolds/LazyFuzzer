@@ -4,7 +4,7 @@ function onClickHandler(info, tab) {
     var id = info.menuItemId.replace(/'/g, "\\'").replace(/"/g, '\\"');
     //Insert the value into the currently selected text field
     chrome.tabs.executeScript({
-        code: 'document.activeElement.value +=\'' + id + '\''
+        code: 'document.activeElement.value =\'' + id + '\''
     })
 };
 
@@ -20,7 +20,6 @@ chrome.runtime.onInstalled.addListener(function() {
     createContext('<b>test</b>', 'XSS');
     createContext('<script>alert()</script>', 'XSS');
     createContext('\' or 1=1 -- ', 'SQLi');
-    createContext('\' and 1=2 -- ', 'SQLi');
     createContext("\",=cmd|\'/c calc\'!\'c3\',\"", 'CSVi');
 });
 

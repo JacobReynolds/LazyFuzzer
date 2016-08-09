@@ -19,6 +19,7 @@
   Or download from the <a href="https://chrome.google.com/webstore/detail/lazy-fuzzer/ghmopjhkkcjplianfnijfdjjaacmbkan">Chrome Web Store</a>
 
 ## Demos
-
+## Fuzzing
  <img src="marketing/fuzzerDemo.gif"/>
- <img src="marketing/replaceLinksDemo.gif"
+## Replace Links
+ <img src="marketing/replaceLinksDemo.gif"/>

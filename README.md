@@ -13,6 +13,7 @@
  ## Help
   <a href="http://superuser.com/questions/247651/how-does-one-install-an-extension-for-chrome-browser-from-the-local-file-system">How to load an unpacked extension</a>
 
-## Demo
+## Demos
 
- <img src="marketing/demo.gif"/>
+ <img src="marketing/fuzzerDemo.gif"/>
+ <img src="marketing/replaceLinksDemo.gif"

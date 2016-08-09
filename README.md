@@ -1,5 +1,3 @@
-<img src="ic_launcher/res/mipmap-xxxhdpi/ic_launcher.png"/>
-
 #Lazy Fuzzer
 
 

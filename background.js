@@ -20,6 +20,7 @@ chrome.runtime.onInstalled.addListener(function() {
     createContext('<b>test</b>', 'XSS');
     createContext('<script>alert()</script>', 'XSS');
     createContext('\' or 1=1 -- ', 'SQLi');
+    createContext('\' and 1=2 -- ', 'SQLi');
     createContext("\",=cmd|\'/c calc\'!\'c3\',\"", 'CSVi');
 });
 
